@@ -49,19 +49,13 @@ zAI 是我把这些问题逐步做成工具的过程：**学习资料有入口�
   </tr>
 </table>
 
-## 把“值得看一眼”变成可跟踪的候选
+## 一张图，看懂 zAI
 
-```mermaid
-flowchart LR
-    A[行情获取] --> B[数据检查与筛选]
-    B --> C[候选分析卡]
-    C --> D[人工复核]
-    D --> E[持续跟踪与复盘]
-    classDef data fill:#ecfdf5,stroke:#059669,color:#064e3b
-    classDef human fill:#fffbeb,stroke:#d97706,color:#78350f
-    class A,B,C,E data
-    class D human
-```
+[![zAI 系统架构：学习与交易双线、人工复核、运行支撑](assets/architecture.svg)](assets/architecture.svg)
+
+**蓝色是学习线，绿色是交易线，金色是人做判断的地方。** 点击图片可放大查看；[架构详解与文字版 →](docs/architecture.md)
+
+## 把“值得看一眼”变成可跟踪的候选
 
 | 已有能力 | 解决什么问题 |
 |---|---|
@@ -99,15 +93,7 @@ flowchart LR
 
 ## 系统的另一半：把学习接回实践
 
-```mermaid
-flowchart LR
-    A[私有学习资料] --> B[文稿与全文检索]
-    A --> C[视频处理与人工审阅]
-    B --> D[带来源的问答]
-    C --> E[个人学习与复核]
-    D --> E
-    E -. 人工理解与工程实现 .-> F[交易辅助]
-```
+文稿经过整理与索引，接入全文搜索和来源问答；录播通过另一条加工流程，产生供人工审阅的学习材料。两条路径都在总览图左侧展开。
 
 学习和交易之间有人做判断。虚线表示个人理解与工程工作，不是自动把录播编译成交易规则。技术构成包括 **Python · Meilisearch · BGE-M3 · Chroma · FastAPI · Windows 任务调度**，部分向量化在本地 GPU 上完成。
 
