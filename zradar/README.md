@@ -29,4 +29,3 @@
 ---
 
 [交易辅助详解 →](../docs/trading.md) · [内容边界](../docs/boundaries.md) · [返回首页](../README.md)
-

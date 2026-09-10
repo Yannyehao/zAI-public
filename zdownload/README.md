@@ -29,4 +29,3 @@
 ---
 
 [系统架构 →](../docs/architecture.md) · [内容边界](../docs/boundaries.md) · [返回首页](../README.md)
-
