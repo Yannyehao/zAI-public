@@ -144,4 +144,4 @@ flowchart LR
 
 </details>
 
-<p align="center"><sub>个人实践 · 与 z 哥无官方关联，不代表其观点或背书 · 系统辅助判断，交易决策由人负责</sub></p>
+<p align="center"><sub>个人实践 · 与 z 哥无官方关联 · 系统辅助判断，交易决策由人负责</sub></p>
