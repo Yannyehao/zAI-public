@@ -49,7 +49,7 @@ zAI 是我把这些问题逐步做成工具的过程：**学习资料有入口�
   </tr>
 </table>
 
-## 一张图，看懂 zAI
+## 看懂 zAI
 
 [![zAI 系统架构：学习与交易双线、人工复核、运行支撑](assets/architecture.svg)](assets/architecture.svg)
 
